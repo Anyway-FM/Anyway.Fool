@@ -81,8 +81,8 @@ main{
 	margin: 0 auto;
 }
 .posts li{
-	border-bottom: 1px dotted #fff;
-	padding: .7em 0;
+	border-bottom: 1px dotted #aaa;
+	padding: 1.2em 0;
 }
 .posts li a{
 	font-weight: 700;
@@ -94,7 +94,6 @@ main{
 }
 h1{
 	font-size: 1.5rem;
-	float: left;
 	display: inline-block;
 }
 .date{
