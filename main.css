@@ -61,6 +61,7 @@ nav li{
 	float: left;
 	margin: 1em 0;
 	font-size: .8rem;
+	list-style: none;
 }
 
 /*~Main*/
@@ -72,11 +73,11 @@ main{
 	text-align: left;
 	margin: 0 auto;
 }
-.post li{
+.posts li{
 	border-bottom: 1px dotted #fff;
 	padding: .5em 0;
 }
-.post li a{
+.posts li a{
 	font-weight: 700;
 	text-decoration: none;
 }
