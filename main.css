@@ -17,8 +17,7 @@ a{
 }
 body{
 	font-family:"Anyway Type", sans-serif;
-	background: #f60c3e;
-	color: #fff;
+	color: #333;
 	text-align: center;
 }
 /*~Fonts*/
@@ -41,9 +40,12 @@ body{
 /*~Header*/
 header{
 	padding: 2em 0;
+	background: #f60c3e;
+	color: #fff;	
 }
 .site-title{
 	font-size: 2rem;
+	font-weight: 700;
 }
 .logo{
 	text-align: center;
@@ -56,12 +58,13 @@ header{
 }
 nav{
 	text-align: center;
+	clear: both;
 }
 nav li{
-	float: left;
 	margin: 1em 0;
 	font-size: .8rem;
 	list-style: none;
+	display: inline-block;
 }
 
 /*~Main*/
@@ -75,7 +78,7 @@ main{
 }
 .posts li{
 	border-bottom: 1px dotted #fff;
-	padding: .5em 0;
+	padding: .7em 0;
 }
 .posts li a{
 	font-weight: 700;
