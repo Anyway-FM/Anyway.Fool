@@ -38,12 +38,9 @@ body{
     font-style: normal;
     font-display: fallback;    
 }
-main{
-	width: 70rem;
-	max-width: 70%;
-	height: auto;
-	display: block;
-	text-align: center;
+/*~Header*/
+header{
+	padding: 2em 0;
 }
 .logo{
 	text-align: center;
@@ -54,8 +51,36 @@ main{
 #logo{
 	max-width: 50%;
 }
+nav li{
+	float: left;
+}
+
+/*~Main*/
+main{
+	width: 70rem;
+	max-width: 70%;
+	height: auto;
+	display: block;
+	text-align: left;
+}
+.post li{
+	border-bottom: 1px dotted #fff;
+	padding: .5em 0;
+}
+h1{
+	font-size: 1.5rem;
+}
+.date{
+	opacity: .5;
+	float: right;
+}
+
+/*~Footer*/
 footer{
 	clear: both;
+	text-align: center;
+	font-size: .8rem;
+	padding: 1em 0;
 }
 @media screen and (max-width: 1000px) {
 	body{
