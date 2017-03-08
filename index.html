@@ -5,7 +5,7 @@ title: Anyway.FM 设计杂谈
 	<ol class="posts">
 	  {% for post in site.posts %}
 	    <li>
-	    	<span>{{ post.date | date_to_string }}</span> × <a target="_blank" href="{{ post.content }}" title="{{ post.title }}">{{ post.title | remove: '<p>' | remove: '</p>' }}</a>
+	    	<span>{{ post.date | date_to_string }}</span> × <a target="_blank" href="{{ post.content  | remove: '<p>' | remove: '</p>' }}" title="{{ post.title }}">{{ post.title }}</a>
 	    </li>
 	  {% endfor %}
 	</ol>
