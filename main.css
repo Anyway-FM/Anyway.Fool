@@ -15,6 +15,7 @@ body{
 	font-family:"Anyway Type", sans-serif;
 	background: #f60c3e;
 	color: #fff;
+	text-align: center;
 }
 /*~Fonts*/
 @font-face {
@@ -33,16 +34,12 @@ body{
     font-style: normal;
     font-display: fallback;    
 }
-.main{
+main{
 	width: 70rem;
 	max-width: 70%;
 	height: auto;
-	position: fixed;
-	top: 50%;
-	left: 50%;
 	display: block;
-	box-sizing: content-box;
-	transform: translateX(-50%) translateY(-50%);
+	text-align: center;
 }
 .logo{
 	text-align: center;
@@ -53,70 +50,14 @@ body{
 #logo{
 	max-width: 50%;
 }
-.quote{
-	font-size: 3em;
-	font-weight: 300;
-	text-align: center;
-	line-height: 1.2;
-	letter-spacing: -.01em;
-	transition: color .15s ease-in;
-}
-.hover{
-	color: #ff6c8b;
-}
-.quote:before,
-.quote:after{
-	content: "“";
-	color: rgba(0, 0, 0, .15);
-	font-size: 1em;
-	font-family: "Times New Roman", serif;
-	margin: 0 .15em;
-	position: relative;
-}
-.quote:after{
-	content: "”";
-}
-.quote a{
-	color: #fff;
-	font-weight: 700;
-	text-decoration: none;
-	border-bottom: 2px solid #fff;
-	display: inline-block;
-	text-shadow: 
-		0 .05em .05em #f60c3e,
-		.05em 0 .05em #f60c3e,
-		-.05em 0 .05em #f60c3e,
-		0 .05em .05em #f60c3e;
-	line-height: 0.5;
-	height: .72em;
-	position: relative;
-	transition: color .15s ease-in, border .15s ease-in;
-}
-.hover a{
-	color: #ff6c8b;
-	border-color: #ff6c8b;
-}
-.hover a:hover{
-	color: #fff;
-	border-color: #fff;
-}
-.author{
-	text-align: right;
-	font-size: 1.5em;
-	font-weight: 400;
-	font-style: italic;
-	font-family: Bitter, serif;
-	margin: 1em 6%;
-	color: rgba(0, 0, 0, .45);
+footer{
+	clear: both;
 }
 @media screen and (max-width: 1000px) {
 	body{
 		font-size: .6em;
 	}
-	.main{
+	main{
 		max-width: 90%;
-	}
-	.author{
-		text-align: center;
 	}
 }
