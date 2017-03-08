@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>{{ page.title }}</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="http://Anyway.FM">原版 Anyway.FM</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-		
-		{{ content }}
-		
-		</div><!-- /.container -->
-		<footer>
+<head>
+	<title>{{ page.title }}</title>
+	<!-- link to main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
 
-		</footer>
-	</body>
+<body>
+<header>
+	<h1>{{ page.title }}</h1>
+	<nav>
+		<ul>
+			<li><a href="http://Anyway.FM">原版 Anyway.FM</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+	
+	{{ content }}
+	
+<main>
+<footer>
+	© 2015 ~ 2017 <a href="http://anyway.fm">Anyway.FM</a> 保留所有权利
+</footer>
+</body>
 </html>
