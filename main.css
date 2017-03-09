@@ -22,7 +22,10 @@ body{
 	font-family:"AR PChiauHei B5 Extra", sans-serif;
 	color: #444;
 	text-align: center;
-	background: #fff;
+	background: #f60c3e;
+}
+.logo, nav, .mt, .site-title, footer {
+    transform: skewY(-8deg);
 }
 /*~Header*/
 header{
@@ -31,7 +34,8 @@ header{
 	color: #fff;
 	display: block;
 	position: fixed;
-	height: 100vh;
+	height: 20vh;
+	top: 60vh;
 	width: 30vw;
 }
 .site-title{
@@ -68,7 +72,6 @@ main{
 	display: block;
 	text-align: left;
 	margin: 0 auto;
-	float: right;
 	padding: 3em;
 }
 .posts{
@@ -116,7 +119,7 @@ h1 p{
 	transform: translate(-.4em,-.5em);
 }
 .p3{
-	transform: translate(.5em,-1.1em);
+	transform: translate(.5em,-.5em);
 }
 .date{
 	float: left;
@@ -132,8 +135,8 @@ h1 p{
 .mask{
 	position: fixed;
 	z-index: 9999;
-	border: .6rem solid #f60c3e;
-	background: #f60c3e;
+	border: .6rem solid #fff;
+	background: #fff;
 }
 .mt, .mb{
 	height: 0;
