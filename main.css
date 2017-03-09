@@ -22,21 +22,25 @@ body{
 	font-family:"AR PChiauHei B5 Extra", sans-serif;
 	color: #444;
 	text-align: center;
-	background: #f60c3e;
-}
-.logo, nav, .mt, .site-title, footer {
-    transform: skewY(-8deg);
+	background: #ededd3 url(2.png) no-repeat bottom;
+	background-attachment: fixed;
+	background-size: cover;
 }
 /*~Header*/
 header{
 	padding: 2em 0;
-	background: #f60c3e;
 	color: #fff;
 	display: block;
 	position: fixed;
-	height: 20vh;
-	top: 60vh;
-	width: 30vw;
+	height: 60vh;
+	z-index: 9999;
+	bottom: 0;
+	width: 100vw;
+	background: url('1.png') no-repeat top center;
+	background-size: cover;
+}
+header img{
+	max-width: 100%;
 }
 .site-title{
 	font-size: 2rem;
@@ -106,11 +110,11 @@ h1{
 		-1px -1px 0 #000,
 		-1px 0 0 #000,
 		0 -1px 0 #000;
-	font-size: 2.5rem;
+	font-size: 3.5rem;
 	line-height: 1;
 }
 h1 p{
-	background: #444;
+	background: #43412a;
 	padding: .2em .3em;
 	display: inline-block;
 	margin: .2em;
@@ -125,10 +129,10 @@ h1 p{
 	float: left;
 	font-family: monospace;
 	font-weight: 700;
-	background: #f60c3d;
+	background: #efe4ce;
 	padding: .2em .3em;
 	font-size: 1.3rem;
-	color: #fff;
+	color: #ec3718;
 	transform: translate(1em,-.9em);
 }
 /*~Misc*/
