@@ -7,14 +7,14 @@ title: Anyway.FM 設計雜談
 	    <li>
 	    	 <a target="_blank" href="{{ post.content  | remove: '<p>' | remove: '</p>' }}" title="{{ post.title }}">
 	    	 	<h1>
-	    	 		<p>{{ post.title }}</p>
+	    	 		<p class="p1">{{ post.title }}</p>
 	    	 		
 	    	 		{% if post.meta %}
-	    	 		  <p>{{ post.meta }}</p>
+	    	 		  <p class="p2">{{ post.meta }}</p>
 	    	 		{% endif %}
 	    	 		
 	    	 		{% if post.author %}
-	    	 			  <p>{{ post.author }}</p>
+	    	 			  <p class="p3">{{ post.author }}</p>
 	    	 		{% endif %}
 	    	 	</h1>
 	    	 	<span class="date">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</span>

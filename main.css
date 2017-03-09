@@ -111,6 +111,12 @@ h1 p{
 	display: inline-block;
 	margin: .2em;
 }
+.p2{
+	transform: translate(-.4em,-.5em);
+}
+.p3{
+	transform: translate(-.2em,.2em);
+}
 .date{
 	float: right;
 	font-family: monospace;
@@ -118,8 +124,8 @@ h1 p{
 	background: #f60c3d;
 	padding: .2em .3em;
 	font-size: 1.3rem;
-	color:#fff;
-	transform:translate(-.5em,-.5em);
+	color: #fff;
+	transform: translate(-.5em,-.5em);
 }
 /*~Misc*/
 .mask{
