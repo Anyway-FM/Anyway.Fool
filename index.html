@@ -4,7 +4,7 @@ title: Anyway.FM 設計雜談
 ---
 	<ol class="posts" reversed>
 	  {% for post in site.posts %}
-	    <span class="hashtag">#</span><li>
+	    <li>
 	    	 <a target="_blank" href="{{ post.content  | remove: '<p>' | remove: '</p>' }}" title="{{ post.title }}">
 	    	 	<h1>{{ post.title }}</h1>
 	    	 	<span class="date">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</span>
