@@ -77,12 +77,13 @@ main{
 .posts li{
 	border-bottom: 1px dotted #aaa;
 	padding: 1.2em 0;
+	font-family: monospace;
 }
 .posts li a{
-	display: block;
 	font-weight: 700;
 	text-decoration: none;
 	overflow: hidden;
+	font-family:"AR PChiauHei B5 Extra", sans-serif;	
 }
 .posts li a:hover{
 	color: #f60c3e;
