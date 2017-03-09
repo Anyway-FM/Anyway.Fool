@@ -78,6 +78,7 @@ main{
 	border-bottom: 1px dotted #aaa;
 	padding: 1.2em 0;
 	font-family: monospace;
+	color: #999;
 }
 .posts li a{
 	font-weight: 700;
@@ -93,8 +94,9 @@ h1{
 	display: inline-block;
 }
 .date{
-	opacity: .5;
+	color: #999;
 	float: right;
+	font-family: monospace;	
 }
 
 /*~Footer*/
