@@ -93,18 +93,21 @@ main{
 
 h1{
 	color: #fff;
-	text-shadow: 2px 2px 0 #000,
-	1px 1px 0 #000,
-	3px 3px 0 #000,
-	4px 4px 0 #000,
-	2px 0 0 #000,
-	0 2px 0 #000,
-	-1px -1px 0 #000,
-	-1px 0 0 #000,
-	0 -1px 0 #000;
+	text-shadow: 
+		2px 2px 0 #000,
+		1px 1px 0 #000,
+		3px 3px 0 #000,
+		4px 4px 0 #000,
+		2px 0 0 #000,
+		0 2px 0 #000,
+		-1px -1px 0 #000,
+		-1px 0 0 #000,
+		0 -1px 0 #000;
+	font-size: 2.2rem;
+}
+h1 p{
 	background: #444;
 	padding: .2em .3em;
-	font-size: 2.2rem;
 }
 .date{
 	float: right;
