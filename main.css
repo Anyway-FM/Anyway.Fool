@@ -79,16 +79,7 @@ main{
 	padding: 1.2em 0;
 	font-family: monospace;
 	color: #4b52a0;
-}
-.posts li:before{
-	content: "#";
-}
-.posts li:after{
-	display: block;
-	width: 10%;
-	height: .4em;
-	background: #444;
-	content: "";
+	font-weight: 700;
 }
 .posts li a{
 	font-weight: 700;
@@ -106,13 +97,14 @@ h1{
 .date{
 	color: #4b52a0;
 	float: right;
-	font-family: monospace;	
+	font-family: monospace;
+	font-weight: 700;
 }
 /*~Misc*/
 .mask{
 	position: fixed;
 	z-index: 9999;
-	border: .4rem solid #f60c3e;
+	border: .6rem solid #f60c3e;
 	background: #f60c3e;
 }
 .mt, .mb{
