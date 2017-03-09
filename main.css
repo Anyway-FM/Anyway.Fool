@@ -40,7 +40,7 @@ header{
 }
 .logo{
 	text-align: center;
-	width: 80%;
+	max-width: 80%;
 	height: auto;
 	margin: 3em auto 1em;
 }
