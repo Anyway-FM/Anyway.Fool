@@ -80,6 +80,7 @@ main{
 	font-family: monospace;
 	color: #4b52a0;
 	font-weight: 700;
+	margin: .8em 0;
 }
 .posts li a{
 	font-weight: 700;
@@ -90,7 +91,6 @@ main{
 .posts li a:hover{
 	color: #f60c3e;
 }
-
 h1{
 	color: #fff;
 	text-shadow: 
@@ -103,7 +103,7 @@ h1{
 		-1px -1px 0 #000,
 		-1px 0 0 #000,
 		0 -1px 0 #000;
-	font-size: 2.2rem;
+	font-size: 2.5rem;
 }
 h1 p{
 	background: #444;
@@ -115,7 +115,7 @@ h1 p{
 	transform: translate(-.4em,-.5em);
 }
 .p3{
-	transform: translate(-.2em,.2em);
+	transform: translate(.5em,.2em);
 }
 .date{
 	float: right;
@@ -125,7 +125,7 @@ h1 p{
 	padding: .2em .3em;
 	font-size: 1.3rem;
 	color: #fff;
-	transform: translate(-.5em,-.5em);
+	transform: translate(-.5em,-.9em);
 }
 /*~Misc*/
 .mask{
