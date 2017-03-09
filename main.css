@@ -11,6 +11,9 @@ a{
 	color: #333;
 	text-decoration: none;
 }
+ol, ul{
+	list-style-position: inside;
+}
 ::selection{ 
 	background: #f60c3e;
 	color: #fff;
@@ -19,7 +22,7 @@ body{
 	font-family:"AR PChiauHei B5 Extra", sans-serif;
 	color: #333;
 	text-align: center;
-	background: #f5f5f5;
+	background: #fff;
 }
 /*~Header*/
 header{
@@ -37,12 +40,9 @@ header{
 }
 .logo{
 	text-align: center;
-	width: 18%;
+	width: 80%;
 	height: auto;
-	margin: 0 auto 1em;
-}
-#logo{
-	max-width: 50%;
+	margin: 3em auto 1em;
 }
 nav{
 	text-align: center;
@@ -66,6 +66,7 @@ main{
 	text-align: left;
 	margin: 0 auto;
 	float: right;
+	padding: 3em;
 }
 .posts li{
 	border-bottom: 1px dotted #aaa;
