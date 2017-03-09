@@ -72,22 +72,17 @@ main{
 	padding: 3em;
 }
 .posts{
-	list-style-type: none;
+
 }
 .posts li{
 	border-bottom: 1px dotted #aaa;
 	padding: 1.2em 0;
-	counter-increment: item -1;
-}
-.posts li:before{
-	content: counter(item) ". ";
 }
 .posts li a{
 	display: block;
 	font-weight: 700;
 	text-decoration: none;
 	overflow: hidden;
-	
 }
 .posts li a:hover{
 	color: #f60c3e;
