@@ -6,7 +6,17 @@ title: Anyway.FM 設計雜談
 	  {% for post in site.posts %}
 	    <li>
 	    	 <a target="_blank" href="{{ post.content  | remove: '<p>' | remove: '</p>' }}" title="{{ post.title }}">
-	    	 	<h1><p>{{ post.title }}</p><p>{{ post.categories }}</p></h1>
+	    	 	<h1>
+	    	 		<p>{{ post.title }}</p>
+	    	 		
+	    	 		{% if post.categories %}
+	    	 		  <p>{{ post.categories }}</p>
+	    	 		{% endif %}
+	    	 		
+	    	 		{% if post.tags %}
+	    	 			  <p>{{ post.tags }}</p>
+	    	 			{% endif %}
+	    	 	</h1>
 	    	 	<span class="date">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</span>
 	    	 </a>
 	    </li>

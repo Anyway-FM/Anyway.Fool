@@ -108,6 +108,8 @@ h1{
 h1 p{
 	background: #444;
 	padding: .2em .3em;
+	display: inline-block;
+	margin: .2em;
 }
 .date{
 	float: right;
