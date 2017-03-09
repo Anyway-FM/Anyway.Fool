@@ -8,7 +8,7 @@
 	-webkit-tap-highlight-color: transparent;
 }
 a{
-	color: #333;
+	color: #444;
 	text-decoration: none;
 }
 ol, ul{
@@ -20,7 +20,7 @@ ol, ul{
 }
 body{
 	font-family:"AR PChiauHei B5 Extra", sans-serif;
-	color: #333;
+	color: #444;
 	text-align: center;
 	background: #fff;
 }
@@ -71,17 +71,19 @@ main{
 	float: right;
 	padding: 3em;
 }
-.posts li{
+.posts li a{
 	border-bottom: 1px dotted #aaa;
 	padding: 1.2em 0;
-}
-.posts li a{
 	font-weight: 700;
 	text-decoration: none;
 	overflow: hidden;
+	counter-increment: episode -1;
+}
+.posts li a:before{
+	content: counter(episode) ". ";
 }
 .posts li a:hover{
-
+	color: #f60c3e;
 }
 h1{
 	font-size: 1.5rem;

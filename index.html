@@ -2,13 +2,11 @@
 layout: default
 title: Anyway.FM 設計雜談
 ---
-	<ol class="posts" reversed>
+	<div class="posts">
 	  {% for post in site.posts %}
-	    <li>
-	    	 <a target="_blank" href="{{ post.content  | remove: '<p>' | remove: '</p>' }}" title="{{ post.title }}">
-	    	 	<h1>{{ post.title }}</h1>
-	    	 	<span class="date">{{ post.date | date_to_string }}</span>
-	    	 </a>
-	    </li>
+		 <a target="_blank" href="{{ post.content  | remove: '<p>' | remove: '</p>' }}" title="{{ post.title }}">
+		 	<h1>{{ post.title }}</h1>
+		 	<span class="date">{{ post.date | date_to_string }}</span>
+		 </a>
 	  {% endfor %}
-	</ol>
+	</div>
