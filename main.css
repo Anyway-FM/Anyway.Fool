@@ -112,6 +112,7 @@ h1{
 	font-weight: 700;
 	background: #f60c3d;
 	padding: .2em .3em;
+	font-size: 1.3rem;
 	color:#fff;
 	transform:translate(-.5em,-.5em);
 }
