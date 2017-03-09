@@ -13,9 +13,9 @@ title: Anyway.FM 設計雜談
 	    	 		  <p>{{ post.categories }}</p>
 	    	 		{% endif %}
 	    	 		
-	    	 		{% if post.tags %}
-	    	 			  <p>{{ post.tags }}</p>
-	    	 			{% endif %}
+	    	 		{% if post.author %}
+	    	 			  <p>{{ post.author }}</p>
+	    	 		{% endif %}
 	    	 	</h1>
 	    	 	<span class="date">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</span>
 	    	 </a>
