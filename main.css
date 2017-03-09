@@ -104,6 +104,7 @@ h1{
 		-1px 0 0 #000,
 		0 -1px 0 #000;
 	font-size: 2.5rem;
+	line-height: 1;
 }
 h1 p{
 	background: #444;
@@ -115,17 +116,17 @@ h1 p{
 	transform: translate(-.4em,-.5em);
 }
 .p3{
-	transform: translate(.5em,.2em);
+	transform: translate(.5em,-1.1em);
 }
 .date{
-	float: right;
+	float: left;
 	font-family: monospace;
 	font-weight: 700;
 	background: #f60c3d;
 	padding: .2em .3em;
 	font-size: 1.3rem;
 	color: #fff;
-	transform: translate(-.5em,-.9em);
+	transform: translate(1em,-.9em);
 }
 /*~Misc*/
 .mask{
