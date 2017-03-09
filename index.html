@@ -2,11 +2,12 @@
 layout: default
 title: Anyway.FM 設計雜談
 ---
-	<ol class="posts" reversed style="counter-reset: item {{ total_posts }};">
+	<ol class="posts" reversed style="counter-reset: item;">
 	  {% for post in site.posts %}
 	    <li>
 	    	 <a target="_blank" href="{{ post.content  | remove: '<p>' | remove: '</p>' }}" title="{{ post.title }}">
 	    	 	<h1>{{ post.title }}</h1>
+	    	 	{{ total_posts }}  {{ post.title }}
 	    	 	<span class="date">{{ post.date | date_to_string }}</span>
 	    	 </a>
 	    </li>
