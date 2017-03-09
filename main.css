@@ -71,18 +71,19 @@ main{
 	float: right;
 	padding: 3em;
 }
-.posts li a{
+.posts a{
+	display: block;
 	border-bottom: 1px dotted #aaa;
 	padding: 1.2em 0;
 	font-weight: 700;
 	text-decoration: none;
 	overflow: hidden;
-	counter-increment: episode -1;
+	counter-increment: item -1;
 }
-.posts li a:before{
-	content: counter(episode) ". ";
+.posts a:before{
+	content: counter(item) ". ";
 }
-.posts li a:hover{
+.posts a:hover{
 	color: #f60c3e;
 }
 h1{
