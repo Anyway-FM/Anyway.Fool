@@ -2,7 +2,7 @@
 layout: default
 title: Anyway.FM 設計雜談
 ---
-	<ol class="posts" reversed style="counter-reset: item 11;">
+	<ol class="posts" reversed style="counter-reset: item {{ total_pages }};">
 	  {% for post in site.posts %}
 	    <li>
 	    	 <a target="_blank" href="{{ post.content  | remove: '<p>' | remove: '</p>' }}" title="{{ post.title }}">
