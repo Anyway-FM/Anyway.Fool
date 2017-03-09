@@ -71,10 +71,13 @@ main{
 	float: right;
 	padding: 3em;
 }
-.posts a{
-	display: block;
+.posts li{
 	border-bottom: 1px dotted #aaa;
 	padding: 1.2em 0;
+	list-style: none;
+}
+.posts li a{
+	display: block;
 	font-weight: 700;
 	text-decoration: none;
 	overflow: hidden;
