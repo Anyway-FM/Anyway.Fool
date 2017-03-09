@@ -22,7 +22,7 @@ body{
 	font-family:"AR PChiauHei B5 Extra", sans-serif;
 	color: #444;
 	text-align: center;
-	background: #fff url('http://anyway-web.b0.upaiyun.com/images/dot-tile.png');
+	background: #fff;
 }
 /*~Header*/
 header{
@@ -75,7 +75,7 @@ main{
 
 }
 .posts li{
-	border-bottom: 1px dotted #aaa;
+	transform: skewY(-8deg);
 	padding: 1.2em 0;
 	font-family: monospace;
 	color: #4b52a0;
@@ -92,14 +92,28 @@ main{
 }
 
 h1{
-	font-size: 1.5rem;
-	display: inline-block;
+	color: #fff;
+	text-shadow: 2px 2px 0 #000,
+	1px 1px 0 #000,
+	3px 3px 0 #000,
+	4px 4px 0 #000,
+	2px 0 0 #000,
+	0 2px 0 #000,
+	-1px -1px 0 #000,
+	-1px 0 0 #000,
+	0 -1px 0 #000;
+	background: #444;
+	padding: .2em .3em;
+	font-size: 2.2rem;
 }
 .date{
-	color: #4b52a0;
 	float: right;
 	font-family: monospace;
 	font-weight: 700;
+	background: #f60c3d;
+	padding: .2em .3em;
+	color:#fff;
+	transform:translate(-.5em,-.5em);
 }
 /*~Misc*/
 .mask{
