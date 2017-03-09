@@ -78,7 +78,17 @@ main{
 	border-bottom: 1px dotted #aaa;
 	padding: 1.2em 0;
 	font-family: monospace;
-	color: #999;
+	color: #4b52a0;
+}
+.posts li:before{
+	content: "#";
+}
+.posts li:after{
+	display: block;
+	width: 10%;
+	height: .4em;
+	background: #444;
+	content: "";
 }
 .posts li a{
 	font-weight: 700;
@@ -94,10 +104,32 @@ h1{
 	display: inline-block;
 }
 .date{
-	color: #999;
+	color: #4b52a0;
 	float: right;
 	font-family: monospace;	
 }
+/*~Misc*/
+.mask{
+	position: fixed;
+	z-index: 9999;
+	border: .4rem solid #f60c3e;
+	background: #f60c3e;
+}
+.mt, .mb{
+	height: 0;
+	width: 100%;
+	left: 0;
+}
+.mb{bottom: 0;}
+.mt{top: 0;}
+.mv{
+	bottom: 0;
+	height: 999em;
+	width: 0;
+}
+.ml,.ml2{left: 0;}
+.mr,.mr2{right: 0;}
+.ml2,.mr2{bottom: none;top: 0;}
 
 /*~Footer*/
 footer{
