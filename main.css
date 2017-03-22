@@ -32,9 +32,9 @@ header{
 	color: #fff;
 	display: block;
 	position: fixed;
-	height: 20vh;
+	height: 60vh;
 	z-index: 9999;
-	top: 0;
+	bottom: 0;
 	width: 100vw;
 	background: url('1.png') no-repeat top center;
 	background-size: cover;
@@ -85,7 +85,7 @@ main{
 	transform: skewY(-8deg);
 	padding: 1.2em 0;
 	font-family: monospace;
-	color: #4b52a0;
+	color: #43412a;
 	font-weight: 700;
 	margin: .8em 0;
 	font-size: 2rem;
