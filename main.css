@@ -32,9 +32,9 @@ header{
 	color: #fff;
 	display: block;
 	position: fixed;
-	height: 60vh;
+	height: 20vh;
 	z-index: 9999;
-	bottom: 0;
+	top: 0;
 	width: 100vw;
 	background: url('1.png') no-repeat top center;
 	background-size: cover;
@@ -85,56 +85,61 @@ main{
 	transform: skewY(-8deg);
 	padding: 1.2em 0;
 	font-family: monospace;
-	color: #43412a;
+	color: #4b52a0;
 	font-weight: 700;
 	margin: .8em 0;
 	font-size: 2rem;
+	text-align: center;
 }
 .posts li a{
 	font-weight: 700;
 	text-decoration: none;
 	overflow: hidden;
-	font-family:"AR Heiti B5 Ultra", sans-serif;	
+	font-family:"AR PChiauHei B5 Extra", sans-serif;	
 }
-.posts li a:hover{
-	color: #f60c3e;
-}
+
 h1{
-	color: #fff;
+	color: #e7e0cc;
 	text-shadow: 
-		2px 2px 0 #000,
-		1px 1px 0 #000,
-		3px 3px 0 #000,
-		4px 4px 0 #000,
-		2px 0 0 #000,
-		0 2px 0 #000,
-		-1px -1px 0 #000,
-		-1px 0 0 #000,
-		0 -1px 0 #000;
+		2px 2px 0 #222,
+		1px 1px 0 #222,
+		3px 3px 0 #222,
+		4px 4px 0 #222,
+		2px 0 0 #222,
+		0 2px 0 #222,
+		-1px -1px 0 #222,
+		-1px 0 0 #222,
+		0 -1px 0 #222;
 	font-size: 3.5rem;
 	line-height: 1;
+	text-align: center;
+}
+.posts li a:hover h1{
+	color: #fff !important;
 }
 h1 p{
 	background: #43412a;
 	padding: .2em .3em;
 	display: inline-block;
-	margin: .2em;
+	width: auto;
+	line-height: 1;
+	box-shadow: -3px -2px 0 #333	
 }
 .p2{
-	transform: translate(-.4em,-.5em);
+	transform: translate(-1.4em,0);
 }
 .p3{
-	transform: translate(.5em,-.5em);
+	transform: translate(3.5em,0);
 }
 .date{
-	float: left;
 	font-family: monospace;
 	font-weight: 700;
-	background: #efe4ce;
+	background: #ec3718;
 	padding: .2em .3em;
-	font-size: 1.3rem;
-	color: #ec3718;
-	transform: translate(1em,-.9em);
+	display: inline-block;
+	font-size: 2rem;
+	color: #efe4ce;
+	margin: 0 auto;
 }
 /*~Misc*/
 .mask{
@@ -161,10 +166,13 @@ h1 p{
 
 /*~Footer*/
 footer{
-	clear: both;
-	text-align: center;
-	font-size: .8rem;
-	padding: 1em 0;
+	background: url('2.png') no-repeat top center;
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 18.5vh;
 }
 @media screen and (max-width: 1000px) {
 	body{
