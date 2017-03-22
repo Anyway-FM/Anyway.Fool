@@ -124,7 +124,8 @@ h1 p{
 	display: inline-block;
 	width: auto;
 	line-height: 1;
-	box-shadow: -3px -2px 0 #333	
+	box-shadow: -3px -2px 0 #333;
+    box-shadow: 4px 4px rgba(67,65,42,0.2);	
 }
 .p2{
 	transform: translate(-1.4em,0);
@@ -142,6 +143,7 @@ h1 p{
 	font-size: 2rem;
 	color: #efe4ce;
 	margin: 0 auto;
+    box-shadow: 4px 4px rgba(67,65,42,0.2);
 }
 /*~Misc*/
 .mask{
@@ -172,7 +174,6 @@ footer{
 	background-size: cover;
 	position: fixed;
 	top: .6rem;
-	margin: 0 .6rem;
 	left: 0;
 	width: 100vw;
 	height: 18.5vh;
