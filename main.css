@@ -85,6 +85,7 @@ main{
 	transform: skewY(-8deg);
 	padding: 1.2em 0;
 	font-family: monospace;
+	font-family:"AR PChiauHei B5 Extra", sans-serif;	
 	color: #43412a;
 	font-weight: 700;
 	margin: .8em 0;
@@ -133,6 +134,7 @@ h1 p{
 }
 .date{
 	font-family: monospace;
+	font-family:"AR PChiauHei B5 Extra", sans-serif;	
 	font-weight: 700;
 	background: #ec3718;
 	padding: .2em .3em;
@@ -169,7 +171,8 @@ footer{
 	background: url('2.png') no-repeat top center;
 	background-size: cover;
 	position: fixed;
-	top: 0;
+	top: .6rem;
+	margin: 0 .6rem;
 	left: 0;
 	width: 100vw;
 	height: 18.5vh;
