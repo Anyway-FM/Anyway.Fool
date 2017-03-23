@@ -22,8 +22,10 @@ body{
 	font-family: sans-serif;
 	color: #444;
 	text-align: center;
-	background: #ededd3 url(2.png) no-repeat bottom;
+	background: #343221 url(2.png) no-repeat bottom;
 	background-attachment: fixed;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover;
 	background-size: cover;
 }
 /*~Footer*/
