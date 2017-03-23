@@ -19,7 +19,7 @@ ol, ul{
 	color: #fff;
 }
 body{
-	font-family:"AR PChiauHei B5 Extra", sans-serif;
+	font-family: sans-serif;
 	color: #444;
 	text-align: center;
 	background: #ededd3 url(2.png) no-repeat bottom;
@@ -85,8 +85,6 @@ main{
 .posts li{
 	transform: skewY(-8deg);
 	padding: 1.2em 0;
-	font-family: monospace;
-	font-family:"AR PChiauHei B5 Extra", sans-serif;	
 	color: #343221;
 	font-weight: 700;
 	margin: .8em 0;
@@ -97,7 +95,6 @@ main{
 	font-weight: 700;
 	text-decoration: none;
 	overflow: hidden;
-	font-family:"AR PChiauHei B5 Extra", sans-serif;	
 }
 h1{
 	color: #e7e0cc;
@@ -150,8 +147,6 @@ h1 .p3{
 	transform: scale(1.1);
 }
 .date{
-	font-family: monospace;
-	font-family:"AR PChiauHei B5 Extra", sans-serif;	
 	font-weight: 700;
 	background: #f7dfbb;
 	padding: .2em .3em;
@@ -184,6 +179,16 @@ h1 .p3{
 .mr,.mr2{right: 0;}
 .ml2,.mr2{bottom: none;top: 0;}
 
+.tile{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url('tile.png') repeat;
+	pointer-events: none;
+	z-index: 99999;
+}
 /*~Header*/
 header{
 	background: url('2.png') no-repeat top center;
