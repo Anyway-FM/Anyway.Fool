@@ -231,8 +231,14 @@ header a{
 		background-size: cover;
 	}
 	main{
-		max-width: 96%;
+		max-width: 100%;
 		margin-top: 20vh;
+	}
+	h1 {
+		font-size: 3rem;
+	}
+	h1 p{
+		margin: 0;
 	}
 	footer{
 		background-image: url('1-m.png');		
