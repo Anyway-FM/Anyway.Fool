@@ -191,6 +191,17 @@ h1 .p3{
 	pointer-events: none;
 	z-index: 99999;
 }
+.mobile-bg{
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #f6dfbd url('2.png') no-repeat bottom;
+	pointer-events: none;
+	z-index: -1;
+}
 /*~Header*/
 header{
 	background: url('3.png') no-repeat center center;
@@ -209,6 +220,10 @@ header a{
 @media screen and (max-width: 1000px) {
 	body{
 		font-size: .6em;
+		background: none;
+	}
+	.mobile-bg{
+		display: block;
 	}
 	main{
 		max-width: 90%;
