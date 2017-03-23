@@ -26,8 +26,8 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 }
-/*~Header*/
-header{
+/*~Footer*/
+footer{
 	padding: 2em 0;
 	color: #fff;
 	display: block;
@@ -39,7 +39,7 @@ header{
 	background: url('1.png') no-repeat top center;
 	background-size: cover;
 }
-header img{
+footer img{
 	max-width: 100%;
 }
 .site-title{
@@ -86,11 +86,15 @@ main{
 	padding: 1.2em 0;
 	font-family: monospace;
 	font-family:"AR PChiauHei B5 Extra", sans-serif;	
-	color: #43412a;
+	color: #343221;
 	font-weight: 700;
 	margin: .8em 0;
 	font-size: 2rem;
 	text-align: center;
+	transition: transform .1s ease-out .2s;
+}
+.posts li:hover {
+    transform: scale(1.1) skewY(-8deg);
 }
 .posts li a{
 	font-weight: 700;
@@ -119,7 +123,7 @@ h1{
 	color: #fff !important;
 }
 h1 p{
-	background: #43412a;
+	background: #343221;
 	padding: .2em .3em;
 	display: inline-block;
 	width: auto;
@@ -127,11 +131,13 @@ h1 p{
 	box-shadow: -3px -2px 0 #333;
     box-shadow: 4px 4px rgba(67,65,42,0.2);	
 }
-.p2{
+h1 .p2{
 	transform: translate(-1.4em,0);
+	background: #43412a;
 }
-.p3{
+h1 .p3{
 	transform: translate(3.5em,0);
+	background: #55533d;
 }
 .date{
 	font-family: monospace;
@@ -168,8 +174,8 @@ h1 p{
 .mr,.mr2{right: 0;}
 .ml2,.mr2{bottom: none;top: 0;}
 
-/*~Footer*/
-footer{
+/*~Header*/
+header{
 	background: url('2.png') no-repeat top center;
 	background-size: cover;
 	position: fixed;
