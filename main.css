@@ -204,7 +204,7 @@ h1 .p3{
 }
 /*~Header*/
 header{
-	background: url('3.png') no-repeat center center;
+	background: #f6dfbd url('3.png') no-repeat center center;
 	background-size: contain;
 	position: fixed;
 	top: .6rem;
@@ -222,10 +222,19 @@ header a{
 		font-size: .6em;
 		background: none;
 	}
+	header{
+		background-image: url('3-m.png');
+	}
 	.mobile-bg{
 		display: block;
+		background-image: url('2-m.png');
+		background-size: cover;
 	}
 	main{
-		max-width: 90%;
+		max-width: 96%;
+		margin-top: 20vh;
+	}
+	footer{
+		background-image: url('1-m.png');		
 	}
 }
