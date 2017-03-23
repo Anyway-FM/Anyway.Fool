@@ -22,7 +22,7 @@ body{
 	font-family: sans-serif;
 	color: #444;
 	text-align: center;
-	background: #343221 url(2.png) no-repeat bottom;
+	background: #f6dfbd url(2.png) no-repeat bottom;
 	background-attachment: fixed;
 	-webkit-background-size: cover; 
 	-moz-background-size: cover;
@@ -86,10 +86,10 @@ main{
 }
 .posts li{
 	transform: skewY(-8deg);
-	padding: 1.2em 0;
+	padding: 1.2em 0 .6em;
 	color: #343221;
-	font-weight: 700;
-	margin: .8em 0;
+	font-weight: 900;
+	margin: .3em 0;
 	font-size: 2rem;
 	text-align: center;
 }
@@ -125,38 +125,49 @@ h1 p{
 	width: auto;
 	line-height: 1;
 	margin: 0 .5em;
-	box-shadow: -3px -2px 0 #333;
     box-shadow: 4px 4px rgba(67,65,42,0.2);	
-	transition: transform .1s ease-in .1s;
+	transition: all .1s ease-in .1s;
 }
 .posts li a:hover h1 p{
 	transform: scale(1.1);
+    box-shadow: 7px 14px rgba(67,65,42,0.2);	
 } 
 h1 .p2{
-	transform: translate(-1.2em,0);
+	transform: translate(1em,0);
 	background: #43412a;
 }
 .posts li a:hover h1 .p2{
-	transition: transform .14s ease-in .1s;
-	transform: scale(1.1);
+	transform: scale(1.1);	
 }
 h1 .p3{
-	transform: translate(2em,0);
+	transform: translate(-2em,0);
 	background: #55533d;
 }
 .posts li a:hover h1 .p3{
-	transition: transform .18s ease-in .1s;
 	transform: scale(1.1);
 }
 .date{
 	font-weight: 700;
-	background: #f7dfbb;
+	background: #d22407;
 	padding: .2em .3em;
 	display: inline-block;
-	font-size: 2rem;
-	color: #ec3718;
-	margin: 0 auto;
-    box-shadow: 4px 4px rgba(67,65,42,0.2);
+	font-size: 1.5rem;
+	color: #f7dfbb;
+	margin: .5em auto 0;
+/*    box-shadow: 4px 4px rgba(67,65,42,0.2);*/
+}
+q{
+	font: italic 2rem Georgia;
+	display: block;
+	text-align: center;
+	transform: skewY(-8deg);
+	color: #e7e0cc;
+	margin-top: 2em;
+}
+q:before,q:after{
+	display: block;
+	content: "-";
+	color: #343221;
 }
 /*~Misc*/
 .mask{
@@ -231,8 +242,9 @@ header a{
 		background-size: cover;
 	}
 	main{
-		max-width: 100%;
 		margin-top: 20vh;
+		padding: 3em 0em;
+		width: 82%;
 	}
 	h1 {
 		font-size: 3rem;
