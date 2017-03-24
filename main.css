@@ -130,7 +130,7 @@ h1 p{
 }
 .posts li a:hover h1 p{
 	transform: scale(1.1);
-    box-shadow: 7px 14px rgba(67,65,42,0.2);	
+    box-shadow: 7px 7px 12px rgba(67,65,42,0.4);	
 } 
 h1 .p2{
 	transform: translate(1em,0);
@@ -157,17 +157,29 @@ h1 .p3{
 /*    box-shadow: 4px 4px rgba(67,65,42,0.2);*/
 }
 q{
-	font: italic 2rem Georgia;
+	font-style: italic;
+	font-size: 4rem;
+	font-family: Georgia, serif;
 	display: block;
 	text-align: center;
 	transform: skewY(-8deg);
 	color: #e7e0cc;
-	margin-top: 2em;
+	margin-top: 1.5em;
+	text-shadow: 
+		.05em .05em 0 rgba(67,65,42,0.2),
+		.02em .02em 0 rgba(67,65,42,0.7),
+		.04em .04em 0 rgba(67,65,42,0.4);		
+	line-height: 1;
 }
 q:before,q:after{
 	display: block;
-	content: "-";
+	content: " ";
 	color: #343221;
+}
+q span{
+	font-size: 1rem;
+	font-style: italic;
+	line-height: 1;
 }
 /*~Misc*/
 .mask{
