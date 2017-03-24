@@ -21,6 +21,7 @@ ol, ul{
 body{
 	font-family: sans-serif;
 	color: #444;
+	font-size: 62.5%;
 	text-align: center;
 	background: #f6dfbd url(2.png) no-repeat bottom;
 	background-attachment: fixed;
