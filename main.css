@@ -203,7 +203,6 @@ q span{
 .ml,.ml2{left: 0;}
 .mr,.mr2{right: 0;}
 .ml2,.mr2{bottom: none;top: 0;}
-
 .tile{
 	position: fixed;
 	width: 100%;
@@ -240,7 +239,7 @@ header a{
 	width: 100%;
 	height: 100%;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 980px) {
 	body{
 		font-size: .6em;
 		background: none;
