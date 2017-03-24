@@ -93,7 +93,9 @@ main{
 	margin: .3em 0;
 	font-size: 2rem;
 	text-align: center;
+	transition: all .1s ease-in;
 }
+
 .posts li a{
 	font-weight: 700;
 	text-decoration: none;
@@ -129,23 +131,45 @@ h1 p{
     box-shadow: 4px 4px rgba(67,65,42,0.2);	
 	transition: all .1s ease-in .1s;
 }
+
+@keyframes flash1 {
+	0% {	transform: rotateZ(0deg) scale(1)}
+	50% {transform: rotateZ(-2deg) scale(1.15);}
+	70% {transform: rotateZ(1deg) scale(.97);}	
+	100% {transform: rotateZ(0deg) scale(1.1);}
+}
+
+@keyframes flash2 {
+	0% {	transform: rotateZ(0deg) scale(1) translate(1em,0);}
+	50% {transform: rotateZ(2deg) scale(1.2) translate(1em,0);}
+	70% {transform: rotateZ(-1deg) scale(.94) translate(1em,0);}	
+	100% {transform: rotateZ(0deg) scale(1.1) translate(1em,0);}
+}
+
+@keyframes flash3 {
+	0% {	transform: rotateZ(0deg) scale(1) translate(-2em,0);}
+	50% {transform: rotateZ(-3deg) scale(1.15) translate(-2em,0);}
+	70% {transform: rotateZ(2deg) scale(.97) translate(-2em,0);}	
+	100% {transform: rotateZ(0deg) scale(1.1) translate(-2em,0);}
+}
+
 .posts li a:hover h1 p{
-	transform: scale(1.1);
-    box-shadow: 7px 7px 12px rgba(67,65,42,0.4);	
-} 
+    box-shadow: 7px 7px 12px rgba(67,65,42,0.4);
+    animation: flash1 .3s ease-in 0s 1 alternate;
+}
 h1 .p2{
 	transform: translate(1em,0);
 	background: #43412a;
 }
 .posts li a:hover h1 .p2{
-	transform: scale(1.1);	
+    animation: flash2 .3s ease-in 0s 1 alternate;
 }
 h1 .p3{
-	transform: translate(-2em,0);
 	background: #55533d;
+	transform: translate(-2em,0);	
 }
 .posts li a:hover h1 .p3{
-	transform: scale(1.1);
+    animation: flash3 .3s ease-in 0s 1 alternate;
 }
 .date{
 	font-weight: 700;
@@ -160,7 +184,7 @@ h1 .p3{
 q{
 	font-style: italic;
 	font-size: 4rem;
-	font-family: Georgia, serif;
+	font-family: Georgia, 'Songti TC', serif;
 	display: block;
 	text-align: center;
 	transform: skewY(-8deg);
@@ -175,11 +199,9 @@ q{
 q:before,q:after{
 	display: block;
 	content: " ";
-	color: #343221;
 }
 q span{
 	font-size: 1rem;
-	font-style: italic;
 	line-height: 1;
 }
 /*~Misc*/
