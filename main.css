@@ -240,8 +240,10 @@ header a{
 	height: 100%;
 }
 @media screen and (max-width: 980px) {
+	html{
+		font-size: 1em;
+	}
 	body{
-		font-size: .6em;
 		background: none;
 	}
 	header{
@@ -266,4 +268,6 @@ header a{
 	footer{
 		background-image: url('1-m.png');		
 	}
+	.mask{
+		border: .3rem solid #fff;	
 }
