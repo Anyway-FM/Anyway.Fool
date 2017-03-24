@@ -242,6 +242,7 @@ header a{
 }
 @media screen and (max-width: 990px) {
 	html{
+		font-size: 40%;
 	}
 	body{
 		background: none;
@@ -259,11 +260,17 @@ header a{
 		padding: 3em 0em;
 		width: 82%;
 	}
+	.posts li{
+		font-size: 3rem;
+	}
 	h1 {
 		font-size: 3rem;
 	}
 	h1 p{
 		margin: 0;
+	}
+	.date{
+		font-size: 2.5rem;
 	}
 	footer{
 		background-image: url('1-m.png');		
