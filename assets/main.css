@@ -39,7 +39,7 @@ footer{
 	z-index: 9999;
 	bottom: 0;
 	width: 100vw;
-	background: url('1.png') no-repeat top center;
+	background: url('../assets/1.png') no-repeat top center;
 	background-size: cover;
 	pointer-events: none;
 }
@@ -230,7 +230,7 @@ q span{
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url('tile.png') repeat;
+	background: url('../assets/tile.png') repeat;
 	pointer-events: none;
 	z-index: 99999;
 }
@@ -241,13 +241,13 @@ q span{
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: #f6dfbd url('2.png') no-repeat bottom;
+	background: #f6dfbd url('../assets/2.png') no-repeat bottom;
 	pointer-events: none;
 	z-index: -1;
 }
 /*~Header*/
 header{
-	background: #f6dfbd url('3.png') no-repeat center center;
+	background: #f6dfbd url('../assets/3.png') no-repeat center center;
 	background-size: contain;
 	position: fixed;
 	top: .6rem;
@@ -268,11 +268,11 @@ header a{
 		background: none;
 	}
 	header{
-		background-image: url('3-m.png');
+		background-image: url('../assets/3-m.png');
 	}
 	.mobile-bg{
 		display: block;
-		background-image: url('2-m.png');
+		background-image: url('../assets/2-m.png');
 		background-size: cover;
 	}
 	main{
@@ -293,7 +293,7 @@ header a{
 		font-size: 1.8rem;
 	}
 	footer{
-		background-image: url('1-m.png');		
+		background-image: url('../assets/1-m.png');		
 	}
 	.mask{
 		border: .4rem solid #fff;	
