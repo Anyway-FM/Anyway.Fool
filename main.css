@@ -93,9 +93,8 @@ main{
 	margin: .3em 0;
 	font-size: 2rem;
 	text-align: center;
-	transition: all .1s ease-in;
+	transition: all .15s ease-in;
 }
-
 .posts li a{
 	font-weight: 700;
 	text-decoration: none;
@@ -134,42 +133,41 @@ h1 p{
 
 @keyframes flash1 {
 	0% {	transform: rotateZ(0deg) scale(1)}
-	50% {transform: rotateZ(-2deg) scale(1.15);}
-	70% {transform: rotateZ(1deg) scale(.97);}	
+	50% {transform: rotateZ(2deg) scale(1.15);}
+	70% {transform: rotateZ(-1deg) scale(.97);}	
 	100% {transform: rotateZ(0deg) scale(1.1);}
 }
 
 @keyframes flash2 {
 	0% {	transform: rotateZ(0deg) scale(1) translate(1em,0);}
-	50% {transform: rotateZ(2deg) scale(1.2) translate(1em,0);}
-	70% {transform: rotateZ(-1deg) scale(.94) translate(1em,0);}	
+	50% {transform: rotateZ(-2deg) scale(1.2) translate(1em,0);}
+	70% {transform: rotateZ(1deg) scale(.94) translate(1em,0);}	
 	100% {transform: rotateZ(0deg) scale(1.1) translate(1em,0);}
 }
 
 @keyframes flash3 {
 	0% {	transform: rotateZ(0deg) scale(1) translate(-2em,0);}
-	50% {transform: rotateZ(-3deg) scale(1.15) translate(-2em,0);}
-	70% {transform: rotateZ(2deg) scale(.97) translate(-2em,0);}	
+	50% {transform: rotateZ(3deg) scale(1.15) translate(-2em,0);}
+	70% {transform: rotateZ(-2deg) scale(.97) translate(-2em,0);}	
 	100% {transform: rotateZ(0deg) scale(1.1) translate(-2em,0);}
 }
-
 .posts li a:hover h1 p{
     box-shadow: 7px 7px 12px rgba(67,65,42,0.4);
-    animation: flash1 .3s ease-in 0s 1 alternate;
+    animation: flash1 .3s ease-in .2s 1 alternate;
 }
 h1 .p2{
 	transform: translate(1em,0);
 	background: #43412a;
 }
 .posts li a:hover h1 .p2{
-    animation: flash2 .3s ease-in 0s 1 alternate;
+    animation: flash2 .3s ease-in .25s 1 alternate;
 }
 h1 .p3{
 	background: #55533d;
 	transform: translate(-2em,0);	
 }
 .posts li a:hover h1 .p3{
-    animation: flash3 .3s ease-in 0s 1 alternate;
+    animation: flash3 .3s ease-in .3s 1 alternate;
 }
 .date{
 	font-weight: 700;
@@ -179,7 +177,7 @@ h1 .p3{
 	font-size: 1.5rem;
 	color: #f7dfbb;
 	margin: .5em auto 0;
-/*    box-shadow: 4px 4px rgba(67,65,42,0.2);*/
+	transition: opacity .3s ease-in;
 }
 q{
 	font-style: italic;
