@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="zh-cmn-Hant">
 <head>
+	<meta charset="UTF-8">
 	<title>{{ page.title }}</title>
-	<!-- link to main stylesheet -->
 	<link rel="stylesheet" type="text/css" href="http://anyway-web.b0.upaiyun.com/anywayfm.com/main.min.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="author" content="JJ Ying" />
+	<meta name="description" content="UI 設計師 JJ Ying 和 Leon Gao 主播的設計 Podcast"/>
+	<link rel="alternate" type="application/rss+xml" title="Anyway.FM" href="http://anyway.fm/rss.xml" />
+	<link rel="shortcut icon" href="http://anyway-web.b0.upaiyun.com/images/favicon.png" />
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?d6fc362c05908e5ce8d17df52dbc2586";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
 </head>
 
 <body>
 
-<header>
-	<a href="http://Anyway.FM" target="_blank"></a>
-</header>
-
-	{{ content }}
+	<header>
+		<a href="http://Anyway.FM" target="_blank"></a>
+	</header>
 	
-<footer>
-<!--	<div class="logo"><img src="http://anyway-web.b0.upaiyun.com/images/logo.svg" /></div>-->
-<!--	<section class="site-title">{{ page.title }}</section>
-	<nav>
-		<ul>
-			<li><a href="http://Anyway.FM">返回正常版</a></li>
-			<li><a href="http://music.163.com/m/djradio/4969001">网易云音乐</a></li>
-			<li><a href="http://www.lizhi.fm/1824901/">荔枝 FM</a></li>
-			<li><a href="https://itunes.apple.com/cn/podcast/anyway.fm-she-ji-za-tan/id1053786200">Apple 播客</a></li>
-		</ul>
-	</nav>-->
-</footer>
-
-
-<div class="mask mt"></div><div class="mask mb"></div><div class="mask mv ml"></div><div class="mask mv mr"></div><div class="mask mv ml2"></div><div class="mask mv mr2"></div>
-
-<div class="tile"></div>
-
-<div class="mobile-bg"></div>
+		{{ content }}
+		
+	<footer></footer>
+	
+	
+	<div class="mask mt"></div>
+	<div class="mask mb"></div>
+	<div class="mask mv ml"></div>
+	<div class="mask mv mr"></div>
+	<div class="mask mv ml2"></div>
+	<div class="mask mv mr2"></div>
+	
+	<div class="tile"></div>
+	
+	<div class="mobile-bg"></div>
 
 </body>
+
 </html>
