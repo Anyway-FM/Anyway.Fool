@@ -180,19 +180,18 @@ h1 .p3{
 	transition: opacity .3s ease-in;
 }
 q{
-	font-style: italic;
-	font-size: 4rem;
-	font-family: Georgia, 'Songti TC', serif;
+	font-size: 1.3rem;
+	font-family: Georgia, 'Songti SC', serif;
 	display: block;
 	text-align: center;
 	transform: skewY(-8deg);
 	color: #e7e0cc;
-	margin-top: 1.5em;
+	margin-top: 3.5em;
 	text-shadow: 
 		.05em .05em 0 rgba(67,65,42,0.2),
 		.02em .02em 0 rgba(67,65,42,0.7),
 		.04em .04em 0 rgba(67,65,42,0.4);		
-	line-height: 1;
+	line-height: 1.2;
 }
 q:before,q:after{
 	display: block;
@@ -201,6 +200,33 @@ q:before,q:after{
 q span{
 	font-size: 1rem;
 	line-height: 1;
+}
+q blockquote{
+	font-size: 4rem;
+	font-style: italic;	
+}
+.social-share{
+	margin: 1em 0 3.5em;
+	font-family: sans-serif;
+}
+.social-share a{
+	color: #e7e0cc;
+	text-shadow: none;
+	font-weight: 700;
+	margin: 0 .5em;
+	border: 2px solid #e7e0cc;
+	padding: .4em .6em .5em;
+	line-height: 1;
+	transition: all .1s ease-in;
+	display: inline-block;
+}
+.social-share a:hover{
+	background: #e7e0cc;
+	transform: scale(1.1);
+	color: #d22407;
+}
+.wechat-qrcode{
+	transform: skewY(8deg);
 }
 /*~Misc*/
 .mask{
@@ -260,6 +286,21 @@ header a{
 	width: 100%;
 	height: 100%;
 }
+/*~Share Style*/
+.icon-wechat{position:relative}
+.icon-wechat .wechat-qrcode{display:none;position:absolute;z-index:9;top:-205px;left:-84px;width:200px;height:192px;color:#666;font-size:12px;text-align:center;background:#fff;box-shadow:0 2px 12px rgba(0,0,0,0.1);}
+  .icon-wechat .wechat-qrcode.bottom {
+    top:40px;
+    left:-84px;
+  }
+  .icon-wechat .wechat-qrcode h4{font-weight:900;height:26px;line-height:26px;font-size:14px; background:#222; margin:0;padding:0;color: #ccc; }
+  .icon-wechat .wechat-qrcode .qrcode{width:105px; margin:10px auto;}
+  .icon-wechat .wechat-qrcode .qrcode table{margin:0!important;}
+  .icon-wechat .wechat-qrcode .help p{font-weight:normal;line-height:16px;padding:0;margin:0;}
+  .icon-wechat .wechat-qrcode:after{content:'';position:absolute;left:50%;margin-left:-6px;bottom:-13px;width:0;height:0;border-width:8px 6px 6px 6px;border-style:solid;border-color:#fff transparent transparent transparent}
+  .icon-wechat:hover .wechat-qrcode{display: block;}
+  
+  
 @media screen and (max-width: 990px) {
 	html{
 		font-size: 40%;
