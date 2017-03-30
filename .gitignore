@@ -1,3 +1,4 @@
 *.esproj
 archive
 node_modules
+*.psd
