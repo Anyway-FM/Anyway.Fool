@@ -219,6 +219,7 @@ q blockquote{
 	line-height: 1;
 	transition: all .1s ease-in;
 	display: inline-block;
+	background: #eb3100;
 }
 .social-share a:hover{
 	background: #e7e0cc;
@@ -333,9 +334,30 @@ header a{
 	.date{
 		font-size: 1.8rem;
 	}
+	q{
+		font-family: sans-serif;
+		text-shadow: 
+			0 .2em 0 rgba(210,36,7,1),
+			.1em 0 0 rgba(210,36,7,1),		
+			-.1em 0 0 rgba(210,36,7,1),						
+			0 -.1em 0 rgba(210,36,7,1);
+	}
+	q span{
+		font-size: 2.2rem;
+		line-height: 1.2;
+	}
+	q blockquote{
+		font-size: 6rem;
+		font-style: italic;
+		font-family: Georgia;
+	}
+	.social-share a{
+		font-size: 2rem;
+	}
 	footer{
 		background-image: url('../assets/1-m.png');		
 	}
 	.mask{
 		border: .4rem solid #fff;	
+	}
 }
